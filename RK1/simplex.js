@@ -1,4 +1,4 @@
-const { lpSolve } = require('pulp');
+/*const { lpSolve } = require('pulp');
 
 // Определяем переменные и ограничения
 const lp = lpSolve([
@@ -8,5 +8,11 @@ const lp = lpSolve([
 // Выводим результат
 console.log('Оптимальное решение:');
 console.log('x =', lp.result.x);
-console.log('y =', lp.result.y);
+console.log('y =', lp.result.y);*/
 
+
+
+let str1 = "ssss"
+let str2= str1;
+str2= 'aaa'
+console.log(str1)

@@ -49,7 +49,7 @@ const getMinimum = (array) => {
   }
   return {minimum, index}
 }
-const getMaximum = (array) => {
+export const getMaximum = (array) => {
   let max = array[0];
   let index = 0;
   for (let i = 1; i < array.length; i++) {
@@ -221,3 +221,5 @@ async function getStrategy(path){
 }
 //await getStrategy('./BrownRobinson.csv')
 
+
+export default getMaximum
